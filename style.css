@@ -28,6 +28,7 @@ body {
     height: calc(33.3% - 10px);
     margin: 5px;
     position: relative;
+    perspective: 1000px;
 }
 .card {
     width: 100%;
@@ -66,8 +67,8 @@ body {
     backface-visibility: hidden;
     transform: rotateY(180deg);
 }
-
 .card:hover{
     transform: rotateY(180deg);
 }
+
 
